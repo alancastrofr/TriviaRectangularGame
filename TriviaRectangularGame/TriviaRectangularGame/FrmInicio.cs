@@ -16,5 +16,15 @@ namespace TriviaRectangularGame
         {
             InitializeComponent();
         }
+
+        FrmDados frmDados = new FrmDados();
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            frmDados.nomberUsuario = txtNombreUsuario.Text;
+            FrmDados frm = new FrmDados();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

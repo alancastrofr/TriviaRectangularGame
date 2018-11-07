@@ -1,0 +1,11 @@
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe.config
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.pdb
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csprojAssemblyReference.cache
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmDados.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmInicio.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.Properties.Resources.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csproj.GenerateResource.cache
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csproj.CoreCompileInputs.cache
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.exe
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.pdb
