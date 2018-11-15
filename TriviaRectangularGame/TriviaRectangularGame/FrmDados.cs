@@ -21,10 +21,8 @@ namespace TriviaRectangularGame
         public string nomberUsuario;
 
         private void FrmDados_Load(object sender, EventArgs e)
-        {
-
+        {            
             lblNombreUsuario.Text = nomberUsuario;
-
             btnLanzarDados.Text = "Lanzar";
             btnContinuar.Visible = false;
         }
@@ -38,6 +36,28 @@ namespace TriviaRectangularGame
             Random random = new Random();
             textBox1.Text = random.Next(1, 6).ToString();
             textBox2.Text = random.Next(1, 6).ToString();
+            pictureBox1.Image = BuscarImagenDado(textBox1.Text);
+            pictureBox2.Image = BuscarImagenDado(textBox2.Text);
+        }
+
+        private Image BuscarImagenDado(string numRandom)
+        {
+            Image imagenSeleccionada = null;
+
+            switch (numRandom)
+            {
+                case "1": imagenSeleccionada = Properties.Resources.diceOne; break;
+                case "2": imagenSeleccionada = Properties.Resources.diceTwo; break;
+                case "3": imagenSeleccionada = Properties.Resources.diceThree; break;
+                case "4": imagenSeleccionada = Properties.Resources.diceFour; break;
+                case "5": imagenSeleccionada = Properties.Resources.diceFive; break;
+                case "6": imagenSeleccionada = Properties.Resources.diceSix; break;
+                default:
+                    break;
+            }
+
+            return imagenSeleccionada;
+            
         }
 
         private void btnContinuar_Click(object sender, EventArgs e)
@@ -47,7 +67,7 @@ namespace TriviaRectangularGame
 
             FrmPreguntas frm = new FrmPreguntas();
             frm.Show();
-            this.Close();
+            this.Hide();
         }
     }
 }

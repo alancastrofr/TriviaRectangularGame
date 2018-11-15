@@ -22,8 +22,7 @@ namespace TriviaRectangularGame
         private void button1_Click(object sender, EventArgs e)
         {
             frmDados.nomberUsuario = txtNombreUsuario.Text;
-            FrmDados frm = new FrmDados();
-            frm.Show();
+            frmDados.Show();
             this.Hide();
         }
     }

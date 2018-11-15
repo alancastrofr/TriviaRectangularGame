@@ -16,5 +16,35 @@ namespace TriviaRectangularGame
         {
             InitializeComponent();
         }
+               
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FrmDados dados = new FrmDados();
+            dados.Show();
+            this.Close();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            FrmDados dados = new FrmDados();
+            dados.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmDados dados = new FrmDados();
+            dados.Show();
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+            FrmDados dados = new FrmDados();
+            dados.Show();
+            this.Close();
+        }
     }
 }
