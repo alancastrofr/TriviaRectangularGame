@@ -28,47 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
+            this.btnEntrar = new System.Windows.Forms.Button();
             this.txtNombreUsuario = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblSubTitulo = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.lblTitulo = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnEntrar
             // 
-            this.button1.Location = new System.Drawing.Point(83, 132);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Entrar";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnEntrar.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEntrar.Location = new System.Drawing.Point(531, 331);
+            this.btnEntrar.Name = "btnEntrar";
+            this.btnEntrar.Size = new System.Drawing.Size(235, 65);
+            this.btnEntrar.TabIndex = 0;
+            this.btnEntrar.Text = "Entrar";
+            this.btnEntrar.UseVisualStyleBackColor = true;
+            this.btnEntrar.Click += new System.EventHandler(this.button1_Click);
             // 
             // txtNombreUsuario
             // 
-            this.txtNombreUsuario.Location = new System.Drawing.Point(78, 87);
+            this.txtNombreUsuario.BackColor = System.Drawing.Color.Green;
+            this.txtNombreUsuario.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtNombreUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombreUsuario.Location = new System.Drawing.Point(437, 246);
             this.txtNombreUsuario.Name = "txtNombreUsuario";
-            this.txtNombreUsuario.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreUsuario.Size = new System.Drawing.Size(419, 47);
             this.txtNombreUsuario.TabIndex = 1;
             // 
-            // label1
+            // lblSubTitulo
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(80, 55);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(98, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Nombre de Usuario";
+            this.lblSubTitulo.AutoSize = true;
+            this.lblSubTitulo.Font = new System.Drawing.Font("Game Over", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblSubTitulo.Location = new System.Drawing.Point(489, 185);
+            this.lblSubTitulo.Name = "lblSubTitulo";
+            this.lblSubTitulo.Size = new System.Drawing.Size(330, 46);
+            this.lblSubTitulo.TabIndex = 2;
+            this.lblSubTitulo.Text = "Nombre del Jugador";
+            this.lblSubTitulo.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 5000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // lblTitulo
+            // 
+            this.lblTitulo.AutoSize = true;
+            this.lblTitulo.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo.Font = new System.Drawing.Font("Game Over", 150F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo.Location = new System.Drawing.Point(254, 40);
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Size = new System.Drawing.Size(790, 113);
+            this.lblTitulo.TabIndex = 3;
+            this.lblTitulo.Text = "¡ TriviaRectangular !";
+            this.lblTitulo.Click += new System.EventHandler(this.label2_Click);
             // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(293, 282);
-            this.Controls.Add(this.label1);
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(1246, 561);
+            this.Controls.Add(this.lblTitulo);
+            this.Controls.Add(this.lblSubTitulo);
             this.Controls.Add(this.txtNombreUsuario);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnEntrar);
             this.Name = "FrmInicio";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TriviaRectangularGame";
+            this.Load += new System.EventHandler(this.FrmInicio_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -76,9 +106,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnEntrar;
         private System.Windows.Forms.TextBox txtNombreUsuario;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblSubTitulo;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label lblTitulo;
     }
 }
 

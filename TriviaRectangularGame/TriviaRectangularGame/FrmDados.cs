@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 
@@ -19,10 +13,12 @@ namespace TriviaRectangularGame
         }
 
         public string nomberUsuario;
-
+        public string sumDados;
+       
         private void FrmDados_Load(object sender, EventArgs e)
-        {            
-            lblNombreUsuario.Text = nomberUsuario;
+        {           
+            lblNombreUsuario.Text = Jugador.NombreUsuario;
+            lblPuntos.Text = Jugador.PuntosJugador.ToString();
             btnLanzarDados.Text = "Lanzar";
             btnContinuar.Visible = false;
         }
@@ -34,10 +30,13 @@ namespace TriviaRectangularGame
             btnLanzarDados.Visible = false;
 
             Random random = new Random();
-            textBox1.Text = random.Next(1, 6).ToString();
-            textBox2.Text = random.Next(1, 6).ToString();
-            pictureBox1.Image = BuscarImagenDado(textBox1.Text);
-            pictureBox2.Image = BuscarImagenDado(textBox2.Text);
+            int dado1 = random.Next(1, 6);
+            int dado2 = random.Next(1, 6);
+
+            pictureBox1.Image = BuscarImagenDado(dado1.ToString());
+            pictureBox2.Image = BuscarImagenDado(dado2.ToString());
+
+            sumDados = ((dado1 + dado2 ) % 2).ToString();
         }
 
         private Image BuscarImagenDado(string numRandom)
@@ -65,8 +64,19 @@ namespace TriviaRectangularGame
             btnContinuar.Visible = false;
             btnLanzarDados.Visible = true;
 
-            FrmPreguntas frm = new FrmPreguntas();
-            frm.Show();
+            FrmPreguntas frmPreguntas = new FrmPreguntas();
+            FrmProblemas frmProblemas = new FrmProblemas();
+
+            if (sumDados == "0")
+            {
+                frmPreguntas.Show();
+            }
+            else
+            {
+                frmProblemas.Show();
+
+            }
+            
             this.Hide();
         }
     }

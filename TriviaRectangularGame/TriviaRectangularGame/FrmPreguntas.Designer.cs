@@ -28,85 +28,97 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
+            this.lblPregunta = new System.Windows.Forms.Label();
+            this.btnRespuesta1 = new System.Windows.Forms.Button();
+            this.btnRespuesta3 = new System.Windows.Forms.Button();
+            this.btnRespuesta4 = new System.Windows.Forms.Button();
+            this.btnRespuesta2 = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // label1
+            // lblPregunta
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(22, 21);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pregunta 1 !";
+            this.lblPregunta.Font = new System.Drawing.Font("Game Over", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPregunta.Location = new System.Drawing.Point(22, 21);
+            this.lblPregunta.Name = "lblPregunta";
+            this.lblPregunta.Size = new System.Drawing.Size(1193, 110);
+            this.lblPregunta.TabIndex = 0;
+            this.lblPregunta.Text = "Definió simulación como el proceso de diseñar y desarrollar un modelo computariza" +
+    "do de un sistema o proceso";
             // 
-            // button1
+            // btnRespuesta1
             // 
-            this.button1.Location = new System.Drawing.Point(31, 70);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRespuesta1.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta1.Location = new System.Drawing.Point(366, 164);
+            this.btnRespuesta1.Name = "btnRespuesta1";
+            this.btnRespuesta1.Size = new System.Drawing.Size(213, 60);
+            this.btnRespuesta1.TabIndex = 1;
+            this.btnRespuesta1.Text = "H. Maisel  ";
+            this.btnRespuesta1.UseVisualStyleBackColor = true;
+            this.btnRespuesta1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // btnRespuesta3
             // 
-            this.button2.Location = new System.Drawing.Point(31, 112);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnRespuesta3.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta3.Location = new System.Drawing.Point(366, 252);
+            this.btnRespuesta3.Name = "btnRespuesta3";
+            this.btnRespuesta3.Size = new System.Drawing.Size(213, 60);
+            this.btnRespuesta3.TabIndex = 2;
+            this.btnRespuesta3.Text = "Robert E. Shannon";
+            this.btnRespuesta3.UseVisualStyleBackColor = true;
+            this.btnRespuesta3.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
+            // btnRespuesta4
             // 
-            this.button3.Location = new System.Drawing.Point(126, 112);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.btnRespuesta4.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta4.Location = new System.Drawing.Point(715, 252);
+            this.btnRespuesta4.Name = "btnRespuesta4";
+            this.btnRespuesta4.Size = new System.Drawing.Size(213, 60);
+            this.btnRespuesta4.TabIndex = 3;
+            this.btnRespuesta4.Text = "Ninguno";
+            this.btnRespuesta4.UseVisualStyleBackColor = true;
+            this.btnRespuesta4.Click += new System.EventHandler(this.button3_Click);
             // 
-            // button4
+            // btnRespuesta2
             // 
-            this.button4.Location = new System.Drawing.Point(126, 70);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btnRespuesta2.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta2.Location = new System.Drawing.Point(715, 164);
+            this.btnRespuesta2.Name = "btnRespuesta2";
+            this.btnRespuesta2.Size = new System.Drawing.Size(213, 60);
+            this.btnRespuesta2.TabIndex = 4;
+            this.btnRespuesta2.Text = "Thomas Naylor";
+            this.btnRespuesta2.UseVisualStyleBackColor = true;
+            this.btnRespuesta2.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // FrmPreguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(231, 174);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label1);
+            this.ClientSize = new System.Drawing.Size(1246, 561);
+            this.Controls.Add(this.btnRespuesta2);
+            this.Controls.Add(this.btnRespuesta4);
+            this.Controls.Add(this.btnRespuesta3);
+            this.Controls.Add(this.btnRespuesta1);
+            this.Controls.Add(this.lblPregunta);
             this.Name = "FrmPreguntas";
             this.Text = "FrmPreguntas";
+            this.Load += new System.EventHandler(this.FrmPreguntas_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label lblPregunta;
+        private System.Windows.Forms.Button btnRespuesta1;
+        private System.Windows.Forms.Button btnRespuesta3;
+        private System.Windows.Forms.Button btnRespuesta4;
+        private System.Windows.Forms.Button btnRespuesta2;
+        private System.Windows.Forms.Timer timer1;
     }
 }

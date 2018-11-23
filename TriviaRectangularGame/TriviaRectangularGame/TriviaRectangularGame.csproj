@@ -63,6 +63,13 @@
     <Compile Include="FrmPreguntas.Designer.cs">
       <DependentUpon>FrmPreguntas.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmProblemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmProblemas.Designer.cs">
+      <DependentUpon>FrmProblemas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Jugador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmDados.resx">
@@ -73,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPreguntas.resx">
       <DependentUpon>FrmPreguntas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmProblemas.resx">
+      <DependentUpon>FrmProblemas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
