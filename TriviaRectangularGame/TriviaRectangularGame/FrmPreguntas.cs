@@ -12,6 +12,8 @@ namespace TriviaRectangularGame
               
         string respCorrecta;
 
+        int tiempo = 0;
+
         private void button1_Click(object sender, EventArgs e)
         {
             if (respCorrecta == btnRespuesta1.Text)
@@ -136,7 +138,12 @@ namespace TriviaRectangularGame
 
             #region Timer
             timer1.Enabled = true;
-            timer1.Interval = 10000;
+            timer1.Interval = 100000;
+
+            timer2.Enabled = true;
+            timer2.Interval = 1000;
+
+            label1.Text = "";
             #endregion
         }
 
@@ -145,6 +152,12 @@ namespace TriviaRectangularGame
             this.Close();
             FrmDados frmdados = new FrmDados();
             frmdados.Show();
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            tiempo = tiempo + 1;
+            label1.Text = tiempo.ToString() + "seg"; 
         }
     }
 }

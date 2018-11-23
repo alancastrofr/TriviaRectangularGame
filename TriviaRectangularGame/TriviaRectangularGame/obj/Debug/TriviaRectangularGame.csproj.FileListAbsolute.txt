@@ -22,3 +22,5 @@ C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\T
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.pdb
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmPreguntas.resources
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmProblemas.resources
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmAyuda.resources
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmFinal.resources

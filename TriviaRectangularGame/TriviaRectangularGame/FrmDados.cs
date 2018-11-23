@@ -19,6 +19,12 @@ namespace TriviaRectangularGame
         {           
             lblNombreUsuario.Text = Jugador.NombreUsuario;
             lblPuntos.Text = Jugador.PuntosJugador.ToString();
+            if (Jugador.Intentos == 5)
+            {
+                FrmFinal frm = new FrmFinal();
+                frm.Show();
+                this.Close();
+            }
             btnLanzarDados.Text = "Lanzar";
             btnContinuar.Visible = false;
         }
@@ -37,6 +43,8 @@ namespace TriviaRectangularGame
             pictureBox2.Image = BuscarImagenDado(dado2.ToString());
 
             sumDados = ((dado1 + dado2 ) % 2).ToString();
+            Jugador.Intentos = Jugador.Intentos + 1;
+
         }
 
         private Image BuscarImagenDado(string numRandom)

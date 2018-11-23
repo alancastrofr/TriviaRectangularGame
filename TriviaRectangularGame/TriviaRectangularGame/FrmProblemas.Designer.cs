@@ -34,6 +34,8 @@
             this.btnNo = new System.Windows.Forms.Button();
             this.lblProblema = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lblFrecuencia
@@ -45,6 +47,7 @@
             this.lblFrecuencia.TabIndex = 0;
             this.lblFrecuencia.Text = "Prueba de Frecuencias - Considerando α= 5%, n= 4\n0.03991   0.17546   0.24122   0." +
     "03788   0.48228";
+            this.lblFrecuencia.Click += new System.EventHandler(this.lblFrecuencia_Click);
             // 
             // btnSi
             // 
@@ -82,11 +85,27 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(31, 490);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(63, 28);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
             // FrmProblemas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1246, 561);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblProblema);
             this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnSi);
@@ -95,6 +114,7 @@
             this.Text = "FrmProblemas";
             this.Load += new System.EventHandler(this.FrmProblemas_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -105,5 +125,7 @@
         private System.Windows.Forms.Button btnNo;
         private System.Windows.Forms.Label lblProblema;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timer2;
     }
 }

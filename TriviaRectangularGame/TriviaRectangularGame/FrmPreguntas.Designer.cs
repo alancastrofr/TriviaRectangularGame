@@ -35,6 +35,8 @@
             this.btnRespuesta4 = new System.Windows.Forms.Button();
             this.btnRespuesta2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // lblPregunta
@@ -95,11 +97,25 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // timer2
+            // 
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Game Over", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(48, 342);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(177, 55);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "label1";
+            // 
             // FrmPreguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1246, 561);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnRespuesta2);
             this.Controls.Add(this.btnRespuesta4);
             this.Controls.Add(this.btnRespuesta3);
@@ -120,5 +136,7 @@
         private System.Windows.Forms.Button btnRespuesta4;
         private System.Windows.Forms.Button btnRespuesta2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label label1;
     }
 }
