@@ -32,18 +32,18 @@
             this.lblFrecuencia = new System.Windows.Forms.Label();
             this.btnSi = new System.Windows.Forms.Button();
             this.btnNo = new System.Windows.Forms.Button();
-            this.lblProblema = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblReloj = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lblFrecuencia
             // 
             this.lblFrecuencia.Font = new System.Drawing.Font("Game Over", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFrecuencia.Location = new System.Drawing.Point(12, 119);
+            this.lblFrecuencia.Location = new System.Drawing.Point(12, 31);
             this.lblFrecuencia.Name = "lblFrecuencia";
-            this.lblFrecuencia.Size = new System.Drawing.Size(1222, 99);
+            this.lblFrecuencia.Size = new System.Drawing.Size(1222, 143);
             this.lblFrecuencia.TabIndex = 0;
             this.lblFrecuencia.Text = "Prueba de Frecuencias - Considerando α= 5%, n= 4\n0.03991   0.17546   0.24122   0." +
     "03788   0.48228";
@@ -71,47 +71,40 @@
             this.btnNo.UseVisualStyleBackColor = true;
             this.btnNo.Click += new System.EventHandler(this.btnNo_Click);
             // 
-            // lblProblema
-            // 
-            this.lblProblema.Font = new System.Drawing.Font("Game Over", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProblema.Location = new System.Drawing.Point(12, 9);
-            this.lblProblema.Name = "lblProblema";
-            this.lblProblema.Size = new System.Drawing.Size(1222, 85);
-            this.lblProblema.TabIndex = 3;
-            this.lblProblema.Text = "Prueba de Frecuencias - Considerando α= 5%, n= 4\n0.03991   0.17546   0.24122   0." +
-    "03788   0.48228";
-            // 
             // timer1
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // label1
+            // lblReloj
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(31, 490);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(63, 28);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.lblReloj.AutoSize = true;
+            this.lblReloj.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReloj.Location = new System.Drawing.Point(31, 490);
+            this.lblReloj.Name = "lblReloj";
+            this.lblReloj.Size = new System.Drawing.Size(0, 28);
+            this.lblReloj.TabIndex = 4;
+            this.lblReloj.Click += new System.EventHandler(this.label1_Click);
             // 
             // timer2
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // FrmProblemas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1246, 561);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.lblProblema);
+            this.Controls.Add(this.lblReloj);
             this.Controls.Add(this.btnNo);
             this.Controls.Add(this.btnSi);
             this.Controls.Add(this.lblFrecuencia);
             this.Name = "FrmProblemas";
-            this.Text = "FrmProblemas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "TriviaRectangularGame";
             this.Load += new System.EventHandler(this.FrmProblemas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -123,9 +116,9 @@
         private System.Windows.Forms.Label lblFrecuencia;
         private System.Windows.Forms.Button btnSi;
         private System.Windows.Forms.Button btnNo;
-        private System.Windows.Forms.Label lblProblema;
         private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblReloj;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Timer timer3;
     }
 }

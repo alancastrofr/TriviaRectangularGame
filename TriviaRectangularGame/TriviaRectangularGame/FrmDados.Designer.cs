@@ -28,23 +28,26 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmDados));
             this.btnLanzarDados = new System.Windows.Forms.Button();
             this.lblNombreUsuario = new System.Windows.Forms.Label();
             this.btnContinuar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblPuntos = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnLanzarDados
             // 
-            this.btnLanzarDados.Location = new System.Drawing.Point(579, 280);
+            this.btnLanzarDados.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLanzarDados.ForeColor = System.Drawing.Color.Black;
+            this.btnLanzarDados.Location = new System.Drawing.Point(513, 244);
             this.btnLanzarDados.Name = "btnLanzarDados";
-            this.btnLanzarDados.Size = new System.Drawing.Size(75, 23);
+            this.btnLanzarDados.Size = new System.Drawing.Size(235, 65);
             this.btnLanzarDados.TabIndex = 0;
             this.btnLanzarDados.UseVisualStyleBackColor = true;
             this.btnLanzarDados.Click += new System.EventHandler(this.btnLanzarDados_Click);
@@ -60,9 +63,11 @@
             // 
             // btnContinuar
             // 
-            this.btnContinuar.Location = new System.Drawing.Point(579, 280);
+            this.btnContinuar.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnContinuar.ForeColor = System.Drawing.Color.Black;
+            this.btnContinuar.Location = new System.Drawing.Point(513, 244);
             this.btnContinuar.Name = "btnContinuar";
-            this.btnContinuar.Size = new System.Drawing.Size(75, 23);
+            this.btnContinuar.Size = new System.Drawing.Size(235, 65);
             this.btnContinuar.TabIndex = 4;
             this.btnContinuar.UseVisualStyleBackColor = true;
             this.btnContinuar.Click += new System.EventHandler(this.btnContinuar_Click);
@@ -70,33 +75,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Game Over", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(679, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(166, 54);
             this.label1.TabIndex = 7;
             this.label1.Text = "Puntos :";
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(688, 126);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(434, 126);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
-            // 
             // lblPuntos
             // 
             this.lblPuntos.AutoSize = true;
+            this.lblPuntos.BackColor = System.Drawing.Color.Transparent;
             this.lblPuntos.Font = new System.Drawing.Font("Game Over", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPuntos.ForeColor = System.Drawing.Color.White;
             this.lblPuntos.Location = new System.Drawing.Point(851, 27);
             this.lblPuntos.Name = "lblPuntos";
             this.lblPuntos.Size = new System.Drawing.Size(131, 54);
@@ -106,17 +99,38 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Game Over", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(241, 27);
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(225, 27);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(178, 54);
             this.label2.TabIndex = 9;
             this.label2.Text = "Jugador:";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(813, 146);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(404, 287);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
+            this.pictureBox1.Location = new System.Drawing.Point(65, 146);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(404, 287);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
             // FrmDados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1246, 561);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblPuntos);
@@ -126,8 +140,10 @@
             this.Controls.Add(this.btnContinuar);
             this.Controls.Add(this.lblNombreUsuario);
             this.Controls.Add(this.btnLanzarDados);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "FrmDados";
-            this.Text = "FrmDados";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "TriviaRectangularGame";
             this.Load += new System.EventHandler(this.FrmDados_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
+using WMPLib;
 
 namespace TriviaRectangularGame
 {
@@ -12,10 +14,21 @@ namespace TriviaRectangularGame
               
         string respCorrecta;
 
-        int tiempo = 0;
+        int tiempoMinutos = 0;
+        int tiempoSegundos = 40;
+
+        WindowsMediaPlayer wndMediaButon = new WindowsMediaPlayer();
+
+        private void SonidoDelBoton()
+        {
+            wndMediaButon.URL = @"C:\soundButton.mp3";
+            wndMediaButon.controls.play();
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            SonidoDelBoton();
+
             if (respCorrecta == btnRespuesta1.Text)
                 Jugador.PuntosJugador = Jugador.PuntosJugador + 1;
             
@@ -26,6 +39,8 @@ namespace TriviaRectangularGame
 
         private void button4_Click(object sender, EventArgs e)
         {
+            SonidoDelBoton();
+
             if (respCorrecta == btnRespuesta4.Text)
                 Jugador.PuntosJugador = Jugador.PuntosJugador + 1;
 
@@ -36,6 +51,8 @@ namespace TriviaRectangularGame
 
         private void button2_Click(object sender, EventArgs e)
         {
+            SonidoDelBoton();
+
             if (respCorrecta == btnRespuesta2.Text)
                 Jugador.PuntosJugador = Jugador.PuntosJugador + 1;
 
@@ -46,6 +63,8 @@ namespace TriviaRectangularGame
 
         private void button3_Click(object sender, EventArgs e)
         {
+            SonidoDelBoton();
+
             if (respCorrecta == btnRespuesta3.Text)
                 Jugador.PuntosJugador = Jugador.PuntosJugador + 1;
 
@@ -138,12 +157,15 @@ namespace TriviaRectangularGame
 
             #region Timer
             timer1.Enabled = true;
-            timer1.Interval = 100000;
+            timer1.Interval = 40000;
 
             timer2.Enabled = true;
-            timer2.Interval = 1000;
+            timer2.Interval = 40000;
 
-            label1.Text = "";
+            timer3.Enabled = true;
+            timer3.Interval = 1000;
+
+            lblReloj.Text = "";
             #endregion
         }
 
@@ -156,8 +178,33 @@ namespace TriviaRectangularGame
 
         private void timer2_Tick(object sender, EventArgs e)
         {
-            tiempo = tiempo + 1;
-            label1.Text = tiempo.ToString() + "seg"; 
+            tiempoMinutos = tiempoMinutos - 1;
+
+            if (tiempoMinutos == -1)
+                tiempoMinutos = 00;
+
+            lblReloj.Text = tiempoMinutos.ToString() + " : " + tiempoSegundos.ToString();
+
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            tiempoSegundos = tiempoSegundos - 1;
+
+            if (tiempoSegundos < 10)
+                lblReloj.ForeColor = Color.Red;
+
+
+            if (tiempoSegundos == -1)
+                tiempoSegundos = 60;
+
+            lblReloj.Text = tiempoMinutos.ToString() + " : " + tiempoSegundos.ToString();
+
+        }
+
+        private void lblReloj_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

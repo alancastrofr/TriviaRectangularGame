@@ -36,13 +36,15 @@
             this.btnRespuesta2 = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timer2 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblReloj = new System.Windows.Forms.Label();
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // lblPregunta
             // 
             this.lblPregunta.Font = new System.Drawing.Font("Game Over", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPregunta.Location = new System.Drawing.Point(22, 21);
+            this.lblPregunta.ForeColor = System.Drawing.Color.White;
+            this.lblPregunta.Location = new System.Drawing.Point(37, 23);
             this.lblPregunta.Name = "lblPregunta";
             this.lblPregunta.Size = new System.Drawing.Size(1193, 110);
             this.lblPregunta.TabIndex = 0;
@@ -52,7 +54,7 @@
             // btnRespuesta1
             // 
             this.btnRespuesta1.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRespuesta1.Location = new System.Drawing.Point(366, 164);
+            this.btnRespuesta1.Location = new System.Drawing.Point(340, 217);
             this.btnRespuesta1.Name = "btnRespuesta1";
             this.btnRespuesta1.Size = new System.Drawing.Size(213, 60);
             this.btnRespuesta1.TabIndex = 1;
@@ -63,7 +65,7 @@
             // btnRespuesta3
             // 
             this.btnRespuesta3.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRespuesta3.Location = new System.Drawing.Point(366, 252);
+            this.btnRespuesta3.Location = new System.Drawing.Point(340, 320);
             this.btnRespuesta3.Name = "btnRespuesta3";
             this.btnRespuesta3.Size = new System.Drawing.Size(213, 60);
             this.btnRespuesta3.TabIndex = 2;
@@ -74,7 +76,7 @@
             // btnRespuesta4
             // 
             this.btnRespuesta4.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRespuesta4.Location = new System.Drawing.Point(715, 252);
+            this.btnRespuesta4.Location = new System.Drawing.Point(689, 320);
             this.btnRespuesta4.Name = "btnRespuesta4";
             this.btnRespuesta4.Size = new System.Drawing.Size(213, 60);
             this.btnRespuesta4.TabIndex = 3;
@@ -85,7 +87,7 @@
             // btnRespuesta2
             // 
             this.btnRespuesta2.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRespuesta2.Location = new System.Drawing.Point(715, 164);
+            this.btnRespuesta2.Location = new System.Drawing.Point(689, 217);
             this.btnRespuesta2.Name = "btnRespuesta2";
             this.btnRespuesta2.Size = new System.Drawing.Size(213, 60);
             this.btnRespuesta2.TabIndex = 4;
@@ -101,28 +103,36 @@
             // 
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
-            // label1
+            // lblReloj
             // 
-            this.label1.Font = new System.Drawing.Font("Game Over", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(48, 342);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(177, 55);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "label1";
+            this.lblReloj.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReloj.ForeColor = System.Drawing.Color.White;
+            this.lblReloj.Location = new System.Drawing.Point(39, 445);
+            this.lblReloj.Name = "lblReloj";
+            this.lblReloj.Size = new System.Drawing.Size(177, 55);
+            this.lblReloj.TabIndex = 5;
+            this.lblReloj.Text = "label1";
+            this.lblReloj.Click += new System.EventHandler(this.lblReloj_Click);
+            // 
+            // timer3
+            // 
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
             // 
             // FrmPreguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1246, 561);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblReloj);
             this.Controls.Add(this.btnRespuesta2);
             this.Controls.Add(this.btnRespuesta4);
             this.Controls.Add(this.btnRespuesta3);
             this.Controls.Add(this.btnRespuesta1);
             this.Controls.Add(this.lblPregunta);
             this.Name = "FrmPreguntas";
-            this.Text = "FrmPreguntas";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "TriviaRectangularGame";
             this.Load += new System.EventHandler(this.FrmPreguntas_Load);
             this.ResumeLayout(false);
 
@@ -137,6 +147,7 @@
         private System.Windows.Forms.Button btnRespuesta2;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Timer timer2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblReloj;
+        private System.Windows.Forms.Timer timer3;
     }
 }
