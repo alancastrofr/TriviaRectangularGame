@@ -25,7 +25,7 @@ namespace TriviaRectangularGame
         private void button1_Click(object sender, EventArgs e)
         {
             if (txtNombreUsuario.Text == "" || txtNombreUsuario.Text == string.Empty)
-                Jugador.NombreUsuario = "Jugador X";
+                Jugador.NombreUsuario = "Jugador 1";
             else
                 Jugador.NombreUsuario = txtNombreUsuario.Text;
 
