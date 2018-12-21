@@ -79,65 +79,68 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmAyuda.cs">
+    <Compile Include="Logicas\Dado.cs" />
+    <Compile Include="Logicas\Jugador.cs" />
+    <Compile Include="Logicas\Pantalla.cs" />
+    <Compile Include="Pantallas\FrmAyuda.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmAyuda.Designer.cs">
+    <Compile Include="Pantallas\FrmAyuda.Designer.cs">
       <DependentUpon>FrmAyuda.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmDados.cs">
+    <Compile Include="Pantallas\FrmDados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmDados.Designer.cs">
+    <Compile Include="Pantallas\FrmDados.Designer.cs">
       <DependentUpon>FrmDados.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmFinal.cs">
+    <Compile Include="Pantallas\FrmFinal.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmFinal.Designer.cs">
+    <Compile Include="Pantallas\FrmFinal.Designer.cs">
       <DependentUpon>FrmFinal.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmInicio.cs">
+    <Compile Include="Pantallas\FrmInicio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmInicio.Designer.cs">
+    <Compile Include="Pantallas\FrmInicio.Designer.cs">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmPreguntas.cs">
+    <Compile Include="Pantallas\FrmPreguntas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmPreguntas.Designer.cs">
+    <Compile Include="Pantallas\FrmPreguntas.Designer.cs">
       <DependentUpon>FrmPreguntas.cs</DependentUpon>
     </Compile>
-    <Compile Include="FrmProblemas.cs">
+    <Compile Include="Pantallas\FrmProblemas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmProblemas.Designer.cs">
+    <Compile Include="Pantallas\FrmProblemas.Designer.cs">
       <DependentUpon>FrmProblemas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Jugador.cs" />
+    <Compile Include="Logicas\ViewModel\VMJugador.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="FrmAyuda.resx">
+    <EmbeddedResource Include="Pantallas\FrmAyuda.resx">
       <DependentUpon>FrmAyuda.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmDados.resx">
+    <EmbeddedResource Include="Pantallas\FrmDados.resx">
       <DependentUpon>FrmDados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmFinal.resx">
+    <EmbeddedResource Include="Pantallas\FrmFinal.resx">
       <DependentUpon>FrmFinal.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmInicio.resx">
+    <EmbeddedResource Include="Pantallas\FrmInicio.resx">
       <DependentUpon>FrmInicio.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmPreguntas.resx">
+    <EmbeddedResource Include="Pantallas\FrmPreguntas.resx">
       <DependentUpon>FrmPreguntas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmProblemas.resx">
+    <EmbeddedResource Include="Pantallas\FrmProblemas.resx">
       <DependentUpon>FrmProblemas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
+      <Generator>PublicResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
@@ -202,6 +205,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\diceTwo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soundButton.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DisfigureBlank.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

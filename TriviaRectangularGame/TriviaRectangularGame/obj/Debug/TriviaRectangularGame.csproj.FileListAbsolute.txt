@@ -33,13 +33,6 @@ C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\T
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.exe
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.pdb
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csprojAssemblyReference.cache
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe.config
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe.manifest
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.application
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.pdb
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\Interop.WMPLib.dll
-C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csprojAssemblyReference.cache
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\Interop.WMPLib.dll
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\AxInterop.WMPLib.dll
@@ -53,6 +46,13 @@ C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\T
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.Properties.Resources.resources
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csproj.GenerateResource.cache
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csproj.CoreCompileInputs.cache
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe.config
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe.manifest
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.application
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.pdb
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\Interop.WMPLib.dll
+C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.exe.manifest
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.application
 C:\Users\alan.castro\source\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.exe
