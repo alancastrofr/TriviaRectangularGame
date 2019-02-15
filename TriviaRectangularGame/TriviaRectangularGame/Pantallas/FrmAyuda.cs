@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Windows.Forms;
 using WMPLib;
 
@@ -35,7 +36,9 @@ namespace TriviaRectangularGame
 
                           "Requisitos: " + "\r\n" +
                           "El usuario deberá tener conocimiento de la materia Modelado y Simulación de sistemas." + "\r\n" +
-                          "El usuario deberá contar con el material de apoyo necesario para solucionar los problemas (calculadora, hoja en blanco, " + "\r\n" + "lápiz, tabla de valores.)";
+                          "El usuario deberá contar con el material de apoyo necesario para solucionar los problemas (calculadora, hoja en blanco, " + "\r\n" +
+                          "lápiz, tabla de valores.)" + "\r\n" +
+                          "El material de apoyo se puede descargar en el boton con el icono de descarga en la parte inferior";
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -47,6 +50,30 @@ namespace TriviaRectangularGame
         {
             SonidoDelBoton();
             this.Hide();
+        }
+
+        private void btnDownload_Click(object sender, EventArgs e)
+        {
+            //if (Directory.Exists(@"\Resources\MaterialApoyo.txt"))
+            //{
+            //    string[] files = Directory.GetFiles(@"\Resources\MaterialApoyo.txt");
+
+            //    foreach (string s in files)
+            //    {
+            //        string[] tmp = s.Split('\\');
+            //        try
+            //        {
+            //            File.Copy(s,
+            //                      Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
+            //                      + "\\" + tmp[tmp.Length - 1]);
+            //        }
+            //        catch (Exception)
+            //        {
+                       
+            //        }
+            //    }
+
+            //}
         }
     }
 }

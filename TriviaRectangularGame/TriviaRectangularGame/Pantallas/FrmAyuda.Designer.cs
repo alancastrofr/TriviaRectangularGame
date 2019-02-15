@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.btnRegresoInicio = new System.Windows.Forms.Button();
+            this.btnDownload = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -54,12 +55,24 @@
             this.btnRegresoInicio.UseVisualStyleBackColor = true;
             this.btnRegresoInicio.Click += new System.EventHandler(this.btnRegresoInicio_Click);
             // 
+            // btnDownload
+            // 
+            this.btnDownload.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownload.Image = global::TriviaRectangularGame.Properties.Resources.file__1_;
+            this.btnDownload.Location = new System.Drawing.Point(847, 506);
+            this.btnDownload.Name = "btnDownload";
+            this.btnDownload.Size = new System.Drawing.Size(125, 87);
+            this.btnDownload.TabIndex = 2;
+            this.btnDownload.UseVisualStyleBackColor = true;
+            this.btnDownload.Click += new System.EventHandler(this.btnDownload_Click);
+            // 
             // FrmAyuda
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1170, 616);
+            this.Controls.Add(this.btnDownload);
             this.Controls.Add(this.btnRegresoInicio);
             this.Controls.Add(this.label1);
             this.Name = "FrmAyuda";
@@ -74,5 +87,6 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnRegresoInicio;
+        private System.Windows.Forms.Button btnDownload;
     }
 }

@@ -32,9 +32,9 @@ namespace TriviaRectangularGame
         private void FrmDados_Load(object sender, EventArgs e)
         {     
             
-            lblNombreUsuario.Text = Jugador.NombreUsuario;
-            lblPuntos.Text = Jugador.PuntosJugador.ToString();
-            if (Jugador.Intentos == 5)
+            lblNombreUsuario.Text = VMJugador.NombreUsuario;
+            lblPuntos.Text = VMJugador.PuntosJugador.ToString();
+            if (VMJugador.Intentos == 5)
             {
                 FrmFinal frm = new FrmFinal();
                 frm.Show();
@@ -61,7 +61,7 @@ namespace TriviaRectangularGame
             pictureBox2.Image = BuscarImagenDado(dado2.ToString());
 
             sumDados = ((dado1 + dado2 ) % 2).ToString();
-            Jugador.Intentos = Jugador.Intentos + 1;
+            VMJugador.Intentos = VMJugador.Intentos + 1;
 
         }
 

@@ -65,10 +65,29 @@ namespace TriviaRectangularGame
         private void CambiarColor()
         {
             #region Titulo
-            if (lblTitulo.ForeColor != Color.DeepPink)
-                lblTitulo.ForeColor = Color.DeepPink;
+            if (lblTitulo.ForeColor != Color.Yellow)
+            {
+                lblTitulo.ForeColor = Color.Yellow;
+                lblTitulo.Show();
+            }            
             else
-                lblTitulo.ForeColor = Color.Blue;
+            {
+                lblTitulo.ForeColor = Color.Purple;
+                lblTitulo.Hide();
+            }
+
+
+            if (lblTitulo2.ForeColor != Color.Yellow)
+            {
+                lblTitulo2.ForeColor = Color.Yellow;
+                lblTitulo2.Hide();
+            }
+            else
+            {
+                lblTitulo2.ForeColor = Color.Purple;
+                lblTitulo2.Show();
+            }
+
             #endregion
 
             #region SubTitulo

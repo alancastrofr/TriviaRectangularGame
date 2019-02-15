@@ -29,14 +29,14 @@ namespace TriviaRectangularGame
         private void FrmFinal_Load(object sender, EventArgs e)
         {
             Aplausos();
-            label1.Text = Jugador.PuntosJugador.ToString();
+            label1.Text = VMJugador.PuntosJugador.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Jugador.Intentos = 0;
-            Jugador.NombreUsuario = "";
-            Jugador.PuntosJugador = 0;
+            VMJugador.Intentos = 0;
+            VMJugador.NombreUsuario = "";
+            VMJugador.PuntosJugador = 0;
 
             SonidoDelBoton();
             FrmInicio frm = new FrmInicio();

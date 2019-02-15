@@ -71,7 +71,7 @@ namespace TriviaRectangularGame
             SonidoDelBoton();
 
             if (respCorrecta == btnSi.Text)
-                Jugador.PuntosJugador = Jugador.PuntosJugador + 1;
+                VMJugador.PuntosJugador = VMJugador.PuntosJugador + 1;
 
             FrmDados dados = new FrmDados();
             dados.Show();
@@ -83,7 +83,7 @@ namespace TriviaRectangularGame
             SonidoDelBoton();
 
             if (respCorrecta == btnNo.Text)
-                Jugador.PuntosJugador = Jugador.PuntosJugador + 1;
+                VMJugador.PuntosJugador = VMJugador.PuntosJugador + 1;
 
             FrmDados dados = new FrmDados();
             dados.Show();

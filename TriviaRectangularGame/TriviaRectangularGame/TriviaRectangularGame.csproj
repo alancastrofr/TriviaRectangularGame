@@ -212,5 +212,11 @@
   <ItemGroup>
     <None Include="Resources\DisfigureBlank.mp3" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\MaterialApoyo.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

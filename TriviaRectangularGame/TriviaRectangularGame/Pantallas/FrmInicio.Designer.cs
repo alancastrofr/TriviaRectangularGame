@@ -35,6 +35,7 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.lblTitulo = new System.Windows.Forms.Label();
             this.btnAyuda = new System.Windows.Forms.Button();
+            this.lblTitulo2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnEntrar
@@ -95,6 +96,17 @@
             this.btnAyuda.UseVisualStyleBackColor = true;
             this.btnAyuda.Click += new System.EventHandler(this.button1_Click_1);
             // 
+            // lblTitulo2
+            // 
+            this.lblTitulo2.AutoSize = true;
+            this.lblTitulo2.BackColor = System.Drawing.Color.Transparent;
+            this.lblTitulo2.Font = new System.Drawing.Font("Game Over", 150F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo2.Location = new System.Drawing.Point(197, 51);
+            this.lblTitulo2.Name = "lblTitulo2";
+            this.lblTitulo2.Size = new System.Drawing.Size(790, 113);
+            this.lblTitulo2.TabIndex = 5;
+            this.lblTitulo2.Text = "¡ TriviaRectangular !";
+            // 
             // FrmInicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -102,6 +114,7 @@
             this.AutoSize = true;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(1170, 616);
+            this.Controls.Add(this.lblTitulo2);
             this.Controls.Add(this.btnAyuda);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblSubTitulo);
@@ -124,6 +137,7 @@
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.Button btnAyuda;
+        private System.Windows.Forms.Label lblTitulo2;
     }
 }
 
