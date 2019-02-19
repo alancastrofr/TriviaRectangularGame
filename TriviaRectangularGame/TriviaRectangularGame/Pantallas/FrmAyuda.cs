@@ -54,26 +54,16 @@ namespace TriviaRectangularGame
 
         private void btnDownload_Click(object sender, EventArgs e)
         {
-            //if (Directory.Exists(@"\Resources\MaterialApoyo.txt"))
-            //{
-            //    string[] files = Directory.GetFiles(@"\Resources\MaterialApoyo.txt");
+            DirectoryInfo destinationDirectory = new DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.Desktop));
 
-            //    foreach (string s in files)
-            //    {
-            //        string[] tmp = s.Split('\\');
-            //        try
-            //        {
-            //            File.Copy(s,
-            //                      Environment.GetFolderPath(Environment.SpecialFolder.Desktop)
-            //                      + "\\" + tmp[tmp.Length - 1]);
-            //        }
-            //        catch (Exception)
-            //        {
-                       
-            //        }
-            //    }
+            var shortcuts = new DirectoryInfo(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments))
+               .GetF‌​iles("*.txt");
 
-            //}
+            string destFolder = destinationDirectory.FullName;
+
+            foreach (var f in shortcuts)
+                File.Copy(f.FullName, Path.Combine(destFolder, f.Name));
+            
         }
     }
 }
