@@ -81,3 +81,16 @@ C:\Users\alan.castro.STKPROJECTS\Documents\GitHub\TriviaRectangularGame\TriviaRe
 C:\Users\alan.castro.STKPROJECTS\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.exe.manifest
 C:\Users\alan.castro.STKPROJECTS\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.application
 C:\Users\alan.castro.STKPROJECTS\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csprojAssemblyReference.cache
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.exe.manifest
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\TriviaRectangularGame.application
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\Interop.WMPLib.dll
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.csproj.ResolveComReference.cache
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmAyuda.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmFinal.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmPreguntas.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.FrmProblemas.resources
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.exe.manifest
+C:\Users\A\OneDrive\Documents\GitHub\TriviaRectangularGame\TriviaRectangularGame\TriviaRectangularGame\obj\Debug\TriviaRectangularGame.application

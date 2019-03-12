@@ -54,14 +54,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="331264">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
       <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>kj+TLjep1XjENiGq1uhVJtvkeqPvYZTIO6QM+2YTFbg=</dsig:DigestValue>
+        <dsig:DigestValue>xDMDqcZWC3w9e1uD2SkMB5k3m84CZsefJqSfET9I2F4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -73,7 +73,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ozAdQVnUPPUPGrV+P6IYfEXEzd8/cWq+F7XP0hGAStE=</dsig:DigestValue>
+        <dsig:DigestValue>w2br/U1GK3iWT+rt8JXM64m6VZigFpaqWQlOlV/pgcY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

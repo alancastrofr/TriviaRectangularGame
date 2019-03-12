@@ -35,7 +35,7 @@
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(12, 9);
             this.label1.Name = "label1";
@@ -46,7 +46,7 @@
             // 
             // btnRegresoInicio
             // 
-            this.btnRegresoInicio.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegresoInicio.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegresoInicio.Location = new System.Drawing.Point(460, 517);
             this.btnRegresoInicio.Name = "btnRegresoInicio";
             this.btnRegresoInicio.Size = new System.Drawing.Size(235, 65);
@@ -57,7 +57,7 @@
             // 
             // btnDownload
             // 
-            this.btnDownload.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDownload.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDownload.Image = global::TriviaRectangularGame.Properties.Resources.file__1_;
             this.btnDownload.Location = new System.Drawing.Point(847, 506);
             this.btnDownload.Name = "btnDownload";

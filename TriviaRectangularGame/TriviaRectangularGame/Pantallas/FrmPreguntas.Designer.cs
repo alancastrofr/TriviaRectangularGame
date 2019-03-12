@@ -42,7 +42,7 @@
             // 
             // lblPregunta
             // 
-            this.lblPregunta.Font = new System.Drawing.Font("Game Over", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPregunta.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPregunta.ForeColor = System.Drawing.Color.White;
             this.lblPregunta.Location = new System.Drawing.Point(37, 24);
             this.lblPregunta.Name = "lblPregunta";
@@ -53,7 +53,7 @@
             // 
             // btnRespuesta1
             // 
-            this.btnRespuesta1.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRespuesta1.Location = new System.Drawing.Point(340, 217);
             this.btnRespuesta1.Name = "btnRespuesta1";
             this.btnRespuesta1.Size = new System.Drawing.Size(213, 60);
@@ -64,7 +64,7 @@
             // 
             // btnRespuesta3
             // 
-            this.btnRespuesta3.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRespuesta3.Location = new System.Drawing.Point(340, 320);
             this.btnRespuesta3.Name = "btnRespuesta3";
             this.btnRespuesta3.Size = new System.Drawing.Size(213, 60);
@@ -75,7 +75,7 @@
             // 
             // btnRespuesta4
             // 
-            this.btnRespuesta4.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRespuesta4.Location = new System.Drawing.Point(689, 320);
             this.btnRespuesta4.Name = "btnRespuesta4";
             this.btnRespuesta4.Size = new System.Drawing.Size(213, 60);
@@ -86,7 +86,7 @@
             // 
             // btnRespuesta2
             // 
-            this.btnRespuesta2.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRespuesta2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRespuesta2.Location = new System.Drawing.Point(689, 217);
             this.btnRespuesta2.Name = "btnRespuesta2";
             this.btnRespuesta2.Size = new System.Drawing.Size(213, 60);
@@ -105,7 +105,7 @@
             // 
             // lblReloj
             // 
-            this.lblReloj.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReloj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReloj.ForeColor = System.Drawing.Color.White;
             this.lblReloj.Location = new System.Drawing.Point(39, 445);
             this.lblReloj.Name = "lblReloj";

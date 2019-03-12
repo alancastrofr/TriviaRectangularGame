@@ -40,7 +40,7 @@
             // 
             // lblFrecuencia
             // 
-            this.lblFrecuencia.Font = new System.Drawing.Font("Game Over", 48F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblFrecuencia.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFrecuencia.Location = new System.Drawing.Point(12, 31);
             this.lblFrecuencia.Name = "lblFrecuencia";
             this.lblFrecuencia.Size = new System.Drawing.Size(1222, 143);
@@ -51,7 +51,7 @@
             // 
             // btnSi
             // 
-            this.btnSi.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSi.Location = new System.Drawing.Point(333, 249);
             this.btnSi.Name = "btnSi";
             this.btnSi.Size = new System.Drawing.Size(724, 60);
@@ -62,7 +62,7 @@
             // 
             // btnNo
             // 
-            this.btnNo.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNo.Location = new System.Drawing.Point(333, 334);
             this.btnNo.Name = "btnNo";
             this.btnNo.Size = new System.Drawing.Size(724, 60);
@@ -78,7 +78,7 @@
             // lblReloj
             // 
             this.lblReloj.AutoSize = true;
-            this.lblReloj.Font = new System.Drawing.Font("Game Over", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblReloj.Font = new System.Drawing.Font("Microsoft Sans Serif", 14, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblReloj.Location = new System.Drawing.Point(31, 490);
             this.lblReloj.Name = "lblReloj";
             this.lblReloj.Size = new System.Drawing.Size(0, 28);
